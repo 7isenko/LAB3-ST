@@ -1,5 +1,7 @@
 package io.github._7isenko.junitlearning;
 
+import io.github._7isenko.junitlearning.pages.DriveAccessIFrame;
+import io.github._7isenko.junitlearning.pages.DrivePage;
 import io.github._7isenko.junitlearning.utils.Properties;
 import org.junit.jupiter.api.*;
 import org.openqa.selenium.WebDriver;

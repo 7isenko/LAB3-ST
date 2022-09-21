@@ -1,4 +1,4 @@
-package io.github._7isenko.junitlearning;
+package io.github._7isenko.junitlearning.pages;
 
 import io.github._7isenko.junitlearning.utils.ActionUtils;
 import org.openqa.selenium.By;

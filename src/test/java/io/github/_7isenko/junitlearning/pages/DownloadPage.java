@@ -1,4 +1,4 @@
-package io.github._7isenko.junitlearning;
+package io.github._7isenko.junitlearning.pages;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

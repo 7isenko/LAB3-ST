@@ -1,5 +1,8 @@
 package io.github._7isenko.junitlearning;
 
+import io.github._7isenko.junitlearning.pages.DownloadPage;
+import io.github._7isenko.junitlearning.pages.DriveAccessIFrame;
+import io.github._7isenko.junitlearning.pages.DrivePage;
 import io.github._7isenko.junitlearning.utils.UserInputUtils;
 import io.github._7isenko.junitlearning.utils.Properties;
 import org.junit.jupiter.api.*;

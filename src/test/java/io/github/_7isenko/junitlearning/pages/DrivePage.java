@@ -1,4 +1,4 @@
-package io.github._7isenko.junitlearning;
+package io.github._7isenko.junitlearning.pages;
 
 import io.github._7isenko.junitlearning.utils.ActionUtils;
 import io.github._7isenko.junitlearning.utils.UserInputUtils;
@@ -96,12 +96,12 @@ public class DrivePage extends WebPage {
 
     public void openUploadedFileContextMenu() {
         waitForVisibility(By.xpath(UPLOADED_FILE_X_PATH));
-        ActionUtils.rightClick(driver, uploadedFile);
+        ActionUtils.leftClick(driver, uploadedFile);
     }
 
     public void openDirectoryContextMenu() {
         waitForVisibility(By.xpath(DIRECTORY_X_PATH));
-        ActionUtils.rightClick(driver, directory);
+        ActionUtils.leftClick(driver, directory);
     }
 
     public void pressAccessOnUploadedFileMenu() {

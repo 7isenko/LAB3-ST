@@ -1,5 +1,6 @@
 package io.github._7isenko.junitlearning;
 
+import io.github._7isenko.junitlearning.pages.DownloadPage;
 import io.github._7isenko.junitlearning.utils.Properties;
 import org.junit.jupiter.api.*;
 import org.openqa.selenium.WebDriver;
