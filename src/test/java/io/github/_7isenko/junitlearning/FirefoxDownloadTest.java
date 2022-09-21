@@ -2,7 +2,6 @@ package io.github._7isenko.junitlearning;
 
 import io.github._7isenko.junitlearning.utils.Properties;
 import org.junit.jupiter.api.BeforeAll;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 import java.time.Duration;
